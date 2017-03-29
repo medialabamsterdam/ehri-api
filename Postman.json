@@ -1,0 +1,70 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "400ddc96-9c7e-465d-ae06-101401cf799c",
+			"name": "EHRI",
+			"folders": [],
+			"requests": [
+				{
+					"id": "14684b02-2dd9-472e-9a6e-ed4af300b0b6",
+					"url": "http://localhost:1337/api/v1/file",
+					"method": "POST",
+					"collectionId": "400ddc96-9c7e-465d-ae06-101401cf799c",
+					"name": "Upload",
+					"description": "",
+					"headers": "Content-Type: multipart/form-data; charset=utf-8; boundary=__X_PAW_BOUNDARY__",
+					"dataMode": "raw",
+					"data": ""
+				},
+				{
+					"id": "1d182950-e66b-4c4e-9c40-5866af733442",
+					"url": "http://localhost:1337/api/v1/file/58dba909c523041eb5dd5494/download",
+					"method": "GET",
+					"collectionId": "400ddc96-9c7e-465d-ae06-101401cf799c",
+					"name": "Download",
+					"description": "",
+					"headers": "Content-Type: multipart/form-data; charset=utf-8; boundary=__X_PAW_BOUNDARY__",
+					"dataMode": "raw",
+					"data": "{\n  \"type\": \"string\",\n  \"default\": \"\"\n}"
+				},
+				{
+					"id": "59458e15-788c-415f-9e0c-9b8a2393c413",
+					"url": "http://localhost:1337/api/v1/file/58dba909c523041eb5dd549",
+					"method": "GET",
+					"collectionId": "400ddc96-9c7e-465d-ae06-101401cf799c",
+					"name": "Show",
+					"description": "",
+					"headers": "Content-Type: multipart/form-data; charset=utf-8; boundary=__X_PAW_BOUNDARY__",
+					"dataMode": "raw",
+					"data": "{\n  \"type\": \"string\",\n  \"default\": \"\"\n}"
+				},
+				{
+					"id": "b34aa4cd-b2d5-46a9-9840-3b887c46aaf0",
+					"url": "http://localhost:1337/api/v1/file/58dba8d9ce3b6f0bb5b91206",
+					"method": "DELETE",
+					"collectionId": "400ddc96-9c7e-465d-ae06-101401cf799c",
+					"name": "Destroy",
+					"description": "",
+					"headers": "Content-Type: multipart/form-data; charset=utf-8; boundary=__X_PAW_BOUNDARY__",
+					"dataMode": "raw",
+					"data": "{\n  \"type\": \"string\",\n  \"default\": \"\"\n}"
+				}
+			],
+			"order": [
+				"14684b02-2dd9-472e-9a6e-ed4af300b0b6",
+				"1d182950-e66b-4c4e-9c40-5866af733442",
+				"59458e15-788c-415f-9e0c-9b8a2393c413",
+				"b34aa4cd-b2d5-46a9-9840-3b887c46aaf0"
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "94fb9869-8145-4e0d-b0a6-788fb9ba17d7",
+			"name": "API-Flow Imports",
+			"values": [],
+			"timestamp": 1490791694688
+		}
+	]
+}
